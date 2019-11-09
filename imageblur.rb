@@ -5,8 +5,8 @@ class Image
   end
 
   def output_image
-    @image.each do |image|
-      puts image.join
+    @image.each do |row|
+      puts row.join
     end
   end
 end
